@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+p {
+  text-align: center;
+}
+.container {
+  margin-top: 50px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  border: 2px solid black;
+  padding: 2rem;
+}
+.task-list {
+  margin-bottom: 10px;
+  border: 2px solid black;
+}
+.tabs {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 2px solid black;
+}
+
+.first:hover,
+.previous:hover,
+.next:hover,
+.last:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
