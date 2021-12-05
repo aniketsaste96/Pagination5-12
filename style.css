@@ -7,6 +7,9 @@ h1,
 p {
   text-align: center;
 }
+p {
+  margin-top: 10px;
+}
 #head {
   background-color: rgb(211, 208, 208);
   position: sticky;
