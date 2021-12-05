@@ -1,11 +1,14 @@
 //Creating and appending required HTML elements
 
 const body = document.body;
+const hdiv = document.createElement('div')
+hdiv.id = "head"
+body.append(hdiv)
 const heading = document.createElement("h1")
 heading.textContent = "Pagination"
 heading.id = "title"
 
-body.append(heading)
+hdiv.appendChild(heading)
 
 const para = document.createElement("p")
 para.textContent = "Pagination Task"
